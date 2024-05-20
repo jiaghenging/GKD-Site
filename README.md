@@ -1,2 +1,3 @@
 # GKD-Site
-GKD's website2233
+GKD's website
+Nuxt3
