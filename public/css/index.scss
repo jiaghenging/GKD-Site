@@ -22,6 +22,9 @@
     >div:nth-child(1) {
         width: 10rem;
         height: 50px;
+        >img{
+            width: 100%;
+        }
     }
 
     >div:nth-child(2) {
@@ -242,13 +245,8 @@
 }
 
 .page_sec {
-    position: fixed;
     width: 100%;
     height: 100vh;
-    z-index: -1;
-    left: 0;
-    top: 0;
-    opacity: 0;
     transition: all ease 0.3s;
     &::before {
         content: "";
@@ -262,8 +260,7 @@
     }
 }
 .current_sec{
-    z-index: 5500!important;
-    opacity: 1!important;
+
 }
 .sec_container{
     width: 80%;

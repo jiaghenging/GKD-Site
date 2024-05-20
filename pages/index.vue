@@ -2,7 +2,9 @@
   <div class="container">
     <header class="page_header">
       <div class="header-container">
-        <div></div>
+        <div class="logo-box">
+          <img src="/img/logo.png" alt="">
+        </div>
         <div>
           <a href="javascript:void(0);" @click="tapMenu()" class="menuBtn">
             <ul ref="menuRef" :class="menuState">
