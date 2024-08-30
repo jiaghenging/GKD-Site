@@ -1,3 +1,11 @@
+$start-size: 10;
+$end-size: 100;
+
+@for $i from $start-size through $end-size {
+  .f-#{$i} {
+    font-size: #{$i}px;
+  }
+}
 html,
 body,
 div,
@@ -108,4 +116,14 @@ ul {
 body::-webkit-scrollbar {
     height: 4px;
     width: 0px;
+}
+.page_sec2::-webkit-scrollbar {
+    height: 4px;
+    width: 0px;
+}
+.middleBox_abs{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }

@@ -10,7 +10,7 @@
     left: 0;
     top: 0;
     padding: 1.5rem 0;
-    z-index: 5000;
+    z-index: 7000;
 
 }
 
@@ -248,9 +248,14 @@
     width: 100%;
     height: 100vh;
     transition: all ease 0.3s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
     &::before {
         content: "";
         position: fixed;
+        z-index: 3000;
         left: 0;
         top: 0;
         width: 100%;
@@ -259,14 +264,32 @@
         // opacity: 0.1;
     }
 }
-.current_sec{
+.page_sec2 {
+    width: 100%;
+    height: 100vh;
+    transition: all ease 0.3s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    overflow-y: auto;
 
+}
+.current_sec{
+    z-index: 5500!important;
+    opacity: 1!important;
 }
 .sec_container{
     width: 80%;
     height: 100%;
-    background-color: #fff;
     margin: 0 auto;
+    position: relative;
+}
+.sec_container_100{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 .point_box {
