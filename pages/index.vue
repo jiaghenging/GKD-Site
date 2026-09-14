@@ -115,12 +115,12 @@ const work = function (e) {
       actIndex.value += 1;
     }
   } 
-  // else {
-  //   // 向上翻页
-  //   if (actIndex.value > 0) {
-  //     actIndex.value -= 1;
-  //   }
-  // }
+  else {
+    // 向上翻页
+    if (actIndex.value > 0) {
+      actIndex.value -= 1;
+    }
+  }
 };
 const top1 = ref("");
 const top2 = ref("");
